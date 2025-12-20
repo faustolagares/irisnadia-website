@@ -18,8 +18,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 })
 
 export const metadata = {
-  title: "Dra. Irisnádia Faria - Estética e Saúde",
-  description: "Harmonização facial natural, estética avançada e ozonioterapia. Tratamentos personalizados com foco em resultados sutis e cuidado humanizado.",
+  title: "Harmonização Facial & Estética Avançada | Dra. Irisnádia Faria",
+  description: "Especialista em estética facial, ozonioterapia e preenchimentos com resultados naturais e atendimento humanizado em Goiânia.",
   generator: 'v0.app',
   icons: {
     icon: '/images/favicon-irisnadia.png',
@@ -27,8 +27,8 @@ export const metadata = {
     apple: '/images/favicon-irisnadia.png',
   },
   openGraph: {
-    title: "Dra. Irisnádia Faria - Estética e Saúde",
-    description: "Harmonização facial natural, estética avançada e ozonioterapia. Tratamentos personalizados com foco em resultados sutis e cuidado humanizado.",
+    title: "Harmonização Facial & Estética Avançada | Dra. Irisnádia Faria",
+    description: "Especialista em estética facial, ozonioterapia e preenchimentos com resultados naturais e atendimento humanizado em Goiânia.",
     images: [
       {
         url: "/images/irisnadia-thumbnail.jpg",
@@ -42,8 +42,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dra. Irisnádia Faria - Estética e Saúde",
-    description: "Harmonização facial natural, estética avançada e ozonioterapia. Tratamentos personalizados com foco em resultados sutis e cuidado humanizado.",
+    title: "Harmonização Facial & Estética Avançada | Dra. Irisnádia Faria",
+    description: "Especialista em estética facial, ozonioterapia e preenchimentos com resultados naturais e atendimento humanizado em Goiânia.",
     images: ["/images/irisnadia-thumbnail.jpg"],
   },
 }

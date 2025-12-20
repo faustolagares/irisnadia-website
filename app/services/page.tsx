@@ -259,9 +259,3 @@ export default function ServicesPage() {
     </main>
   )
 }
-
-export const metadata = {
-  title: "Serviços de Estética - Dra. Irisnádia Faria",
-  description:
-    "Tratamentos personalizados de harmonização facial, estética avançada e ozonioterapia. Resultados naturais e equilibrados com a Dra. Irisnádia Faria.",
-}
