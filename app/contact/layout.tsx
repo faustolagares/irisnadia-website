@@ -4,9 +4,9 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 
 export const metadata: Metadata = {
-  title: "Contact Us | Juliana Duran",
+  title: "Contato - Dra. Irisnádia Faria | Agende sua Consulta",
   description:
-    "Get in touch with Juliana Duran for Brazilian Lymphatic Drainage and therapeutic massage services in Denver, CO.",
+    "Entre em contato com a Dra. Irisnádia Faria para agendar sua consulta. Harmonização facial, estética avançada e ozonioterapia. WhatsApp: (62) 98321-6630",
 }
 
 export default function ContactLayout({

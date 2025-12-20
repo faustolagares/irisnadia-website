@@ -67,7 +67,7 @@ export default function Header() {
             <Link href="https://www.facebook.com/dra.irisnadiafaria" aria-label="Facebook" className="hover:text-[#A17840] transition-colors" target="_blank" rel="noopener noreferrer">
               <Facebook size={16} />
             </Link>
-            <Link href="https://www.instagram.com/dra.irisnadiafaria" aria-label="Instagram" className="hover:text-[#A17840] transition-colors" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.instagram.com/drairisnadiafaria/" aria-label="Instagram" className="hover:text-[#A17840] transition-colors" target="_blank" rel="noopener noreferrer">
               <Instagram size={16} />
             </Link>
           </div>
@@ -311,7 +311,7 @@ export default function Header() {
                     <Facebook size={18} />
                   </Link>
                   <Link
-                    href="https://www.instagram.com/dra.irisnadiafaria"
+                    href="https://www.instagram.com/drairisnadiafaria/"
                     aria-label="Instagram"
                     className="w-10 h-10 rounded-full bg-[#f5f2ee] flex items-center justify-center hover:bg-[#A17840] hover:text-white transition-colors"
                     target="_blank"

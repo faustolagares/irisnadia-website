@@ -2,8 +2,8 @@ import type React from "react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Massage Intake Form | Juliana Duran",
-  description: "Complete your massage intake form for Juliana Duran's therapeutic massage services.",
+  title: "Formulário de Avaliação - Dra. Irisnádia Faria",
+  description: "Complete seu formulário de avaliação para os tratamentos de estética avançada e harmonização facial da Dra. Irisnádia Faria.",
 }
 
 export default function IntakeFormLayout({

@@ -38,7 +38,7 @@ export default function ContactPage() {
                     <Facebook size={18} strokeWidth={1.5} />
                   </a>
                   <a
-                    href="https://www.instagram.com/dra.irisnadiafaria"
+                    href="https://www.instagram.com/drairisnadiafaria/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-[#A17840] hover:text-white transition-colors border border-gray-200"

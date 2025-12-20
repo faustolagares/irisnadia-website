@@ -130,6 +130,6 @@ export default function StyleGuidePage() {
 }
 
 export const metadata = {
-  title: "Style Guide | Juliana Duran",
-  description: "Layout and design guidelines for the Juliana Duran website.",
+  title: "Guia de Estilo - Dra. Irisnádia Faria",
+  description: "Diretrizes de layout e design para o website da Dra. Irisnádia Faria.",
 }

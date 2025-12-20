@@ -1,8 +1,8 @@
 import type React from "react"
 export const metadata = {
-  title: "About Juliana Duran | Brazilian Massage Therapy",
+  title: "Sobre - Dra. Irisnádia Faria | Estética e Saúde",
   description:
-    "Learn about Juliana Duran's journey, expertise, and passion for authentic Brazilian massage therapy and wellness treatments.",
+    "Conheça a trajetória, expertise e paixão da Dra. Irisnádia Faria pela estética avançada, harmonização facial natural e ozonioterapia. Farmacêutica especializada em tratamentos personalizados.",
 }
 
 export default function AboutLayout({ children }: { children: React.ReactNode }) {

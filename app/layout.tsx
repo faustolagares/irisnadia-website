@@ -34,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${plusJakartaSans.variable}`} suppressHydrationWarning>
+    <html lang="pt-BR" className={`${inter.variable} ${plusJakartaSans.variable}`} suppressHydrationWarning>
       <body className="font-sans">
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
           {children}

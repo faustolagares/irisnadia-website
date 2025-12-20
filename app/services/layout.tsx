@@ -4,9 +4,9 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 
 export const metadata: Metadata = {
-  title: "Our Services | Juliana Duran",
+  title: "Serviços - Dra. Irisnádia Faria | Estética Avançada",
   description:
-    "Explore our range of therapeutic massage services including Brazilian Lymphatic Drainage, Deep Tissue Massage, and more.",
+    "Conheça nossos tratamentos de harmonização facial, rinomodelação, preenchimento labial, bioestimuladores de colágeno, ozonioterapia estética e terapêutica. Tratamentos personalizados.",
 }
 
 export default function ServicesLayout({

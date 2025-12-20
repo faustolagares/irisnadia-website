@@ -261,7 +261,7 @@ export default function ServicesPage() {
 }
 
 export const metadata = {
-  title: "Body Massage | Juliana Duran Services",
+  title: "Serviços de Estética - Dra. Irisnádia Faria",
   description:
-    "Experience our luxurious body massage services designed to relax, rejuvenate and restore your wellbeing.",
+    "Tratamentos personalizados de harmonização facial, estética avançada e ozonioterapia. Resultados naturais e equilibrados com a Dra. Irisnádia Faria.",
 }

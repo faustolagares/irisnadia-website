@@ -33,7 +33,7 @@ export default function Footer() {
                 <Facebook size={15} strokeWidth={1.5} />
               </Link>
               <Link
-                href="https://www.instagram.com/dra.irisnadiafaria"
+                href="https://www.instagram.com/drairisnadiafaria/"
                 aria-label="Instagram"
                 className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#A17840] hover:text-white transition-colors"
                 target="_blank"
