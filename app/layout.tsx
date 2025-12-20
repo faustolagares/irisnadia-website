@@ -26,6 +26,26 @@ export const metadata = {
     shortcut: '/images/favicon-irisnadia.png',
     apple: '/images/favicon-irisnadia.png',
   },
+  openGraph: {
+    title: "Dra. Irisnádia Faria - Estética e Saúde",
+    description: "Harmonização facial natural, estética avançada e ozonioterapia. Tratamentos personalizados com foco em resultados sutis e cuidado humanizado.",
+    images: [
+      {
+        url: "/images/irisnadia-thumbnail.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Dra. Irisnádia Faria - Estética e Saúde",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dra. Irisnádia Faria - Estética e Saúde",
+    description: "Harmonização facial natural, estética avançada e ozonioterapia. Tratamentos personalizados com foco em resultados sutis e cuidado humanizado.",
+    images: ["/images/irisnadia-thumbnail.jpg"],
+  },
 }
 
 export default function RootLayout({
