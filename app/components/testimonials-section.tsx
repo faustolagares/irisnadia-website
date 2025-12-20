@@ -88,7 +88,7 @@ export default function TestimonialsSection() {
   }
 
   return (
-    <section className="bg-black py-20 md:py-28 relative overflow-hidden" ref={ref}>
+    <section className="bg-[#f5f2ee] py-20 md:py-28 relative overflow-hidden" ref={ref}>
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div
@@ -108,21 +108,21 @@ export default function TestimonialsSection() {
           transition={{ duration: 0.8 }}
         >
           {/* Google Review Badge */}
-          <div className="inline-flex items-center bg-gradient-to-r from-yellow-500/10 to-yellow-400/10 backdrop-blur-sm px-6 py-3 rounded-full mb-8">
+          <div className="inline-flex items-center bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full mb-8 shadow-sm border border-[#A17840]/20">
             <div className="flex items-center gap-1 mr-3">
               {Array.from({ length: 5 }).map((_, index) => (
-                <Star key={index} size={18} className="text-yellow-400 fill-yellow-400" />
+                <Star key={index} size={18} className="text-yellow-500 fill-yellow-500" />
               ))}
             </div>
-            <span className="text-yellow-400 font-medium text-lg">5.0</span>
-            <span className="text-white/80 ml-2 text-sm">Baseado em 150+ Avaliações Google</span>
+            <span className="text-yellow-600 font-medium text-lg">5.0</span>
+            <span className="text-gray-700 ml-2 text-sm">Baseado em 150+ Avaliações Google</span>
           </div>
 
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-medium text-white mb-6">
+          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-medium text-gray-900 mb-6">
             O Que Nossas Pacientes Dizem
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-[#A17840] to-[#D5B78C] mx-auto mb-6"></div>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="text-gray-700 max-w-2xl mx-auto">
             Descubra por que nossas pacientes continuam voltando para nossos tratamentos de harmonização facial e estética avançada
           </p>
         </motion.div>
@@ -149,7 +149,7 @@ function TestimonialCard({ testimonial }: { testimonial: TestimonialProps }) {
     <div className="relative h-full">
       {/* Card background with gradient border */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#A17840] via-[#D5B78C] to-[#A17840] rounded-2xl p-[1px]">
-        <div className="absolute inset-0 bg-black rounded-2xl"></div>
+        <div className="absolute inset-0 bg-white rounded-2xl"></div>
       </div>
 
       {/* Card content */}
@@ -157,7 +157,7 @@ function TestimonialCard({ testimonial }: { testimonial: TestimonialProps }) {
         {/* Stars */}
         <div className="flex mb-6">
           {Array.from({ length: 5 }).map((_, index) => (
-            <Star key={index} size={16} className="text-yellow-400 fill-yellow-400 mr-1" />
+            <Star key={index} size={16} className="text-yellow-500 fill-yellow-500 mr-1" />
           ))}
         </div>
 
@@ -178,10 +178,10 @@ function TestimonialCard({ testimonial }: { testimonial: TestimonialProps }) {
         </div>
 
         {/* Review Text */}
-        <p className="text-white/90 text-base leading-relaxed mb-8 flex-grow font-light">"{testimonial.text}"</p>
+        <p className="text-gray-800 text-base leading-relaxed mb-8 flex-grow font-light">"{testimonial.text}"</p>
 
         {/* Author */}
-        <div className="flex items-center mt-auto pt-6 border-t border-gray-800">
+        <div className="flex items-center mt-auto pt-6 border-t border-gray-200">
           <div className="relative">
             <div className="w-14 h-14 rounded-full overflow-hidden relative z-10">
               <Image
@@ -194,10 +194,10 @@ function TestimonialCard({ testimonial }: { testimonial: TestimonialProps }) {
             <div className="absolute -inset-1 bg-gradient-to-br from-[#A17840] to-[#D5B78C] rounded-full blur-[1px] z-0"></div>
           </div>
           <div className="ml-4">
-            <span className="text-white font-medium block">{testimonial.name}</span>
+            <span className="text-gray-900 font-medium block">{testimonial.name}</span>
             <div className="flex items-center mt-1">
               <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
-              <span className="text-gray-400 text-xs">{testimonial.location || "Paciente Verificada"}</span>
+              <span className="text-gray-600 text-xs">{testimonial.location || "Paciente Verificada"}</span>
             </div>
           </div>
         </div>
