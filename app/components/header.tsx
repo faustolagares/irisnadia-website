@@ -86,7 +86,7 @@ export default function Header() {
                 alt="Dra. Irisnádia Faria Logo"
                 width={200}
                 height={50}
-                className="h-10 w-auto"
+                className="h-8 md:h-10 w-auto"
                 priority
               />
             </Link>
@@ -141,7 +141,7 @@ export default function Header() {
                 isActive("/before-after") ? "text-[#A17840]" : "text-gray-800"
               }`}
             >
-              ANTES E DEPOIS
+              RESULTADOS
             </Link>
             <Link
               href="/contact"
@@ -258,7 +258,7 @@ export default function Header() {
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  ANTES E DEPOIS
+                  RESULTADOS
                 </Link>
                 <Link
                   href="/contact"

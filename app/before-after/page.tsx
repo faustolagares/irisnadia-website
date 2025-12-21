@@ -120,9 +120,9 @@ export default function BeforeAfterPage() {
       
       {/* Hero Section */}
       <AnimatedContactHero
-        title="Antes e Depois"
+        title="Resultados"
         breadcrumbs={[{ label: "INÍCIO", href: "/" }]}
-        currentPage="ANTES E DEPOIS"
+        currentPage="RESULTADOS"
       />
 
       {/* Main Content */}
