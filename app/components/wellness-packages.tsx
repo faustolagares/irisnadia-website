@@ -13,22 +13,22 @@ const aestheticServices = [
   {
     title: "Harmonização Facial Completa",
     description: "Tratamento completo para equilíbrio e proporção facial",
-    image: "/images/harmonizacao-facial.jpg",
+    image: "/images/harmonizacao-facial.jpeg",
   },
   {
     title: "Rinomodelação",
     description: "Correção e refinamento do nariz com resultados naturais",
-    image: "/images/rinomodelacao.jpg",
+    image: "/images/rinomodelacao.jpeg",
   },
   {
     title: "Otomodelação",
     description: "Harmonização e correção das orelhas",
-    image: "/images/otomodelacao.jpg",
+    image: "/images/otomodelação.jpeg",
   },
   {
     title: "Preenchimento Labial",
     description: "Volume e definição dos lábios com técnica especializada",
-    image: "/images/preenchimento-labial.jpg",
+    image: "/images/preenchimento-labial.jpeg",
   },
   {
     title: "Preenchimento de Mento, Malar e Têmporas",
@@ -38,7 +38,7 @@ const aestheticServices = [
   {
     title: "Bioestimulador de Colágeno",
     description: "Estimulação natural do colágeno para rejuvenescimento do rosto e pescoço",
-    image: "/images/bioestimulador.jpg",
+    image: "/images/bio-estimulador-colageno.jpeg",
   },
   {
     title: "Ozonioterapia Estética",
@@ -149,7 +149,7 @@ export default function WellnessPackages() {
               className="relative rounded-lg overflow-hidden group cursor-pointer"
               variants={itemVariants}
             >
-              <div className="relative h-[480px]">
+              <div className="relative h-[560px] md:h-[480px]">
                 <Image
                   src={service.image || "/placeholder.svg"}
                   alt={service.title}
@@ -160,14 +160,14 @@ export default function WellnessPackages() {
 
                 <div className="absolute inset-0">
                   {/* Título posicionado a uma distância fixa do topo */}
-                  <div className="absolute top-[350px] left-6 right-6">
+                  <div className="absolute top-[430px] md:top-[350px] left-6 right-6">
                     <h3 className="text-white text-xl md:text-2xl font-heading" style={{ fontWeight: 400 }}>
                       {service.title}
                     </h3>
                   </div>
 
                   {/* Descrição posicionada logo abaixo do título */}
-                  <div className="absolute top-[415px] left-6 right-6">
+                  <div className="absolute top-[495px] md:top-[415px] left-6 right-6">
                     <p className="text-white/80 text-sm font-light">{service.description}</p>
                   </div>
                 </div>

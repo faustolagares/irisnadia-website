@@ -27,7 +27,7 @@ export default function BioPage() {
         <div className="flex flex-col items-center -mt-20 mb-6">
           {/* Avatar Circle */}
           <div className="relative mb-4">
-            <div className="w-32 h-32 md:w-36 md:h-36 rounded-full overflow-hidden border-4 border-white shadow-xl relative z-10">
+            <div className="w-32 h-32 md:w-36 md:h-36 rounded-full overflow-hidden border-2 border-white relative z-10">
               <Image
                 src="/images/irisnadia-faria-profile.jpg"
                 alt="Dra. Irisnádia Faria"
@@ -36,8 +36,6 @@ export default function BioPage() {
                 priority
               />
             </div>
-            {/* Glow effect */}
-            <div className="absolute -inset-2 bg-gradient-to-br from-[#A17840] to-[#D5B78C] rounded-full blur-md opacity-30 z-0"></div>
           </div>
 
           {/* Name and Title */}
@@ -59,7 +57,7 @@ export default function BioPage() {
             href="https://seu-dominio.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-14 h-14 rounded-full bg-white shadow-md flex items-center justify-center hover:bg-[#A17840] hover:text-white transition-all duration-300 group"
+            className="w-14 h-14 rounded-full bg-white flex items-center justify-center hover:bg-[#A17840] hover:text-white transition-all duration-300 group"
             aria-label="Website"
           >
             <Globe size={22} className="text-[#A17840] group-hover:text-white transition-colors" />
@@ -70,7 +68,7 @@ export default function BioPage() {
             href="https://www.instagram.com/drairisnadiafaria/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-14 h-14 rounded-full bg-white shadow-md flex items-center justify-center hover:bg-[#A17840] hover:text-white transition-all duration-300 group"
+            className="w-14 h-14 rounded-full bg-white flex items-center justify-center hover:bg-[#A17840] hover:text-white transition-all duration-300 group"
             aria-label="Instagram"
           >
             <Instagram size={22} className="text-[#A17840] group-hover:text-white transition-colors" />
@@ -81,7 +79,7 @@ export default function BioPage() {
             href="https://www.facebook.com/dra.irisnadiafaria"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-14 h-14 rounded-full bg-white shadow-md flex items-center justify-center hover:bg-[#A17840] hover:text-white transition-all duration-300 group"
+            className="w-14 h-14 rounded-full bg-white flex items-center justify-center hover:bg-[#A17840] hover:text-white transition-all duration-300 group"
             aria-label="Facebook"
           >
             <Facebook size={22} className="text-[#A17840] group-hover:text-white transition-colors" />
